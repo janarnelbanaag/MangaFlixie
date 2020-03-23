@@ -44,11 +44,11 @@
             this.lblUsername.AutoSize = true;
             this.lblUsername.BackColor = System.Drawing.Color.Transparent;
             this.lblUsername.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.lblUsername.Font = new System.Drawing.Font("Decibel", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUsername.ForeColor = System.Drawing.SystemColors.Control;
             this.lblUsername.Location = new System.Drawing.Point(99, 292);
             this.lblUsername.Name = "lblUsername";
-            this.lblUsername.Size = new System.Drawing.Size(122, 27);
+            this.lblUsername.Size = new System.Drawing.Size(124, 29);
             this.lblUsername.TabIndex = 2;
             this.lblUsername.Text = "Username";
             // 
@@ -56,11 +56,11 @@
             // 
             this.lblPassword.AutoSize = true;
             this.lblPassword.BackColor = System.Drawing.Color.Transparent;
-            this.lblPassword.Font = new System.Drawing.Font("Decibel", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPassword.ForeColor = System.Drawing.SystemColors.Control;
             this.lblPassword.Location = new System.Drawing.Point(99, 397);
             this.lblPassword.Name = "lblPassword";
-            this.lblPassword.Size = new System.Drawing.Size(117, 27);
+            this.lblPassword.Size = new System.Drawing.Size(120, 29);
             this.lblPassword.TabIndex = 3;
             this.lblPassword.Text = "Password";
             // 
@@ -73,6 +73,7 @@
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(330, 29);
             this.txtUsername.TabIndex = 4;
+            this.txtUsername.TextChanged += new System.EventHandler(this.txtUsername_TextChanged);
             // 
             // txtPassword
             // 
@@ -94,6 +95,7 @@
             this.MangaFlixie.Size = new System.Drawing.Size(404, 75);
             this.MangaFlixie.TabIndex = 7;
             this.MangaFlixie.TabStop = false;
+            this.MangaFlixie.Click += new System.EventHandler(this.MangaFlixie_Click);
             // 
             // Welcometo
             // 
